@@ -13,30 +13,30 @@ const projects = [
   //   Previewlink: "",
   //   Githublink: "",
   // },
-  // {
-  //   title: "Chess Engine",
-  //   cardImage: "assets/images/project-page/chess.jpg",
-  //   description: "A chess engine for a popular game dev engine.",
-  //   tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "Flappy Bird",
-  //   cardImage: "assets/images/project-page/flappybird.png",
-  //   description: "Flappy bird game built using React.js",
-  //   tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "Exercise Tracker",
-  //   cardImage: "assets/images/project-page/exercise.jpg",
-  //   description: "Exercise tracker built using basic redux.",
-  //   tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
+  {
+    title: "NFT Price predictor",
+    cardImage: "assets/images/project-page/nft3.webp",
+    description: "Forcasted the price of NFT using Recurrent Neural Network",
+    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Dry eye disease CV - DL solution",
+    cardImage: "assets/images/project-page/ear4.avif",
+    description: "Flappy bird game built using React.js",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "https://github.com/AnkurKumarShukla/Autoyos/tree/master",
+  },
+  {
+    title: "Bayssian Neural Network implementation on MNIST",
+    cardImage: "assets/images/project-page/bnn6.jpg",
+    description: " Generalised the MNIST classification using bayssian algorithim in Artifiial Neural Network.",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "https://www.kaggle.com/code/ankurkumarshukla/bnn-ankur",
+    Githublink: "https://www.kaggle.com/code/ankurkumarshukla/bnn-ankur",
+  },
   // {
   //   title: "Recipe Ingredient Parser",
   //   cardImage: "assets/images/project-page/recipe.jpg",
@@ -46,23 +46,23 @@ const projects = [
   //   Previewlink: "",
   //   Githublink: "",
   // },
-  // {
-  //   title: "Poker Game",
-  //   cardImage: "assets/images/project-page/poker.jpg",
-  //   description: "Poker game built using typescript.",
-  //   tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "Tic Tac Toe Game",
-  //   cardImage: "assets/images/project-page/tic-tac-toe.png",
-  //   description:
-  //     "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
-  //   tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
+  {
+    title: "Tracking footprint of operator/institution of Stock market",
+    cardImage: "assets/images/project-page/stock.jpg",
+    description: "track the operator movement using outlier detection algorithim.",
+    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: " Sensitive Document classification",
+    cardImage: "assets/images/project-page/ocr.gif",
+    description:
+      "Classified the document uploaded by user as if it is correct document or not using OCR and similarity detection.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://github.com/Shishya-App/similarity-detection-model",
+    Githublink: "https://github.com/Shishya-App/similarity-detection-model",
+  },
   // {
   //   title: "Personal Book Library",
   //   cardImage: "assets/images/project-page/book.png",
@@ -72,31 +72,49 @@ const projects = [
   //   Previewlink: "",
   //   Githublink: "",
   // },
+  {
+    title: "Bank Fraud Detection",
+    cardImage: "assets/images/project-page/fraud.gif",
+    description:
+      "detected fraud of data science given data and find insight from it to hel bank to frame policy",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://github.com/AnkurKumarShukla/Machine-Learning-Fundamental-/tree/main/project%20on%20ml/BankFruadDetection",
+    Githublink: "https://github.com/AnkurKumarShukla/Machine-Learning-Fundamental-/tree/main/project%20on%20ml/BankFruadDetection",
+  },
+  {
+    title: "Spam detection (NLP)",
+    cardImage: "assets/images/project-page/spam2.png",
+    description: "To detect that wheather given message is spam or not . Approach used is naive bayes algorithm.",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://github.com/AnkurKumarShukla/NLP-spam-detector",
+    Githublink: "https://github.com/AnkurKumarShukla/NLP-spam-detector",
+  
+  },
+  {
+    title: "Handwritten digit Classifier using Artificial Neural network",
+    cardImage: "assets/images/project-page/mnit.gif",
+    description: "MNIST dataset by adding handwritten values from 10 to 19 instead of 0 to 9. Every image in the dataset has values from 10 to 19 along with the corresponding label. The task for this challenge is to create a model which can accurately identify the value from the images. Approach = Problem is solved using simple neural network  Result : This model predict the result with the accuracy of 99% , validation accuracy = 96.13%",
+    tagimg:"https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
+    Previewlink: "https://www.kaggle.com/code/ankurkumarshukla/digit-recog",
+    Githublink: "https://www.kaggle.com/code/ankurkumarshukla/digit-recog",
+  },
   // {
-  //   title: "Minesweeper Game",
-  //   cardImage: "assets/images/project-page/minesweeper.jpg",
-  //   description:
-  //     "Minesweeper Game built using python Object Oriented Programming.",
+  //   title: "Music Recommendation Engine",
+  //   cardImage: "assets/images/project-page/music.jpg",
+  //   description: "Built using Python.",
   //   tagimg:
   //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
   //   Previewlink: "",
   //   Githublink: "",
   // },
-  // {
-  //   title: "Battery Life Calculator",
-  //   cardImage: "assets/images/project-page/battery.png",
-  //   description: "Built battery life calculator using Python.",
+    // {
+  //   title: "Music Recommendation Engine",
+  //   cardImage: "assets/images/project-page/music.jpg",
+  //   description: "Built using Python.",
   //   tagimg:
   //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "Movie Recommendation System",
-  //   cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-  //   description: "Built using Tensorflow.",
-  //   tagimg:
-  //     "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
   //   Previewlink: "",
   //   Githublink: "",
   // },
